@@ -42,4 +42,4 @@ Landsea4L   密码: asd456789
 访问链接获取下载地址: http://hotfixv4.microsoft.com/Web%20Services%20Enhancements%203.0%20for%20.NET/latest/WSE3QFE1/3.0.6282.0/free/383444_intl_i386_zip.exe
 
 按照IBM陈文源要求重新安装filenet client :   ./20160328重新安装Client
-
+然而还是只有https， 重新安装filenet icc :   ./20160328重新安装icc
