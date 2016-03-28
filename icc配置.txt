@@ -1,0 +1,37 @@
+wifi818 密码: 1234567890
+内网    192.168.103.119,    192.168.103.254
+安装电脑    192.168.1.188   Administrator   123456
+安装 .net Framkework 4 (done)
+安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
+安装 outlook    (没有输入密钥) (done)
+安装 CC_SVR
+    集群名称    icc_cluster
+    默认    端口11443
+    需要 filenet client
+安装 filenet client (done)
+安装 CC_SVR (done)
+    资源值单元  RVU
+    CN=filenet,CN=Users,DC=m,DC=landsea,DC=cn 密码: filenet123 (验证失败)
+    filenet@m.landsea.cn 密码: filenet123
+    CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn 密码: filenet123 (验证成功)
+    FileNet P8 服务器配置
+        http://192.168.1.60:9081/wsi/FNCEWS40MTOM
+        p8admin
+        password
+    FileNet P8 任务用户
+        p8admin
+        password
+    FileNet P8 域和对象库
+        FNOS
+        p8domain
+        无
+    启动配置
+        创建 FileNet P8 文档类失败 见日志 AfuInitialConfigTrace_01.txt (继续操作)
+    新建任务
+        P8_CSS_EX_2.1 - Space Saving (all email) .ctms
+        修改 EC 收集30天之前的电子邮件为 
+            活动
+            收集源添加: 服务器上的邮箱:https://m.landsea.cn
+            删除源: 服务器上的邮箱:server.company.com
+            过滤: 不选择 按时效过滤电子邮件
+            无法选择filenet p8文档类
