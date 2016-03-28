@@ -1,4 +1,5 @@
 wifi818 密码: 1234567890
+Landsea4L   密码: asd456789
 内网    192.168.103.119,    192.168.103.254
 安装电脑    192.168.1.188   Administrator   123456
 安装 .net Framkework 4 (done)
