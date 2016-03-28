@@ -35,3 +35,10 @@ wifi818 密码: 1234567890
             删除源: 服务器上的邮箱:server.company.com
             过滤: 不选择 按时效过滤电子邮件
             无法选择filenet p8文档类
+
+远程链接: https://apps.na.collabserv.com/meetings/join?wrapped=true&launchpt=stmeet_url&id=7636-1754
+用的是http，所以需要安装微软软件。 链接 https://support.microsoft.com/en-us/kb/943508
+访问链接获取下载地址: http://hotfixv4.microsoft.com/Web%20Services%20Enhancements%203.0%20for%20.NET/latest/WSE3QFE1/3.0.6282.0/free/383444_intl_i386_zip.exe
+
+按照IBM陈文源要求重新安装filenet client :   ./20160328重新安装Client
+
