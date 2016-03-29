@@ -45,3 +45,32 @@ Landsea4L   密码: asd456789
 然而还是只有https， 重新安装filenet icc :   ./20160328重新安装icc
     创建P8文档类仍然失败，失败的日志见 AfuInitialConfigTrace_328_01.txt
     按照要求，重新打开icc set-up 配置界面，这次可以创见filenet 文档类了 ./20160328重新配置icc
+
+配置ICC ./20160329配置ICC
+    连接器-电子邮件-链接-自动配置
+        没有输入账号密码的窗口    01.png
+        而安装文档上有输入帐号密码的地方 02.png
+        使用文档上的配置参数无法进行下一步操作，只能默认    03.png
+        设置IBM Filenet P8连接器    04.png
+    配置任务系列
+        P8_CSS_EX_1.1 - Default Archiving (automatic).ctms  05.png
+        EC 收集一个月之前的电子邮件
+            常规    选择活动    06.png
+            收集源添加  服务器上的所有邮箱
+                删除 server.company.cn
+                邮件服务器: 192.168.1.105   07.png
+        缺省归档    设置为活动  08.png
+        P8查找重复邮件
+            文档类  ICCMail 2   09.png
+        P8归档电子邮件
+            公共设置
+                安装文档要选 ICCMail 3  11.png
+                但是只有文档类  ICCMail 2   10.png
+            实例设置
+                属性映射 默认没选，无法进行下一步 12.png
+                选择了 ICCMailInstance 2
+        点击保存
+    启动 IBM Content Collector Task Routing Engine(默认没启动) 13.png
+    点击工具的控制面板  查看状态    14.png
+    更改第一次启动收集时间为 12:00 并保存   15.png
+    重动 IBM Content Collector Task Routing Engine
