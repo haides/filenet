@@ -74,3 +74,5 @@ Landsea4L   密码: asd456789
     点击工具的控制面板  查看状态    14.png
     更改第一次启动收集时间为 12:00 并保存   15.png
     重动 IBM Content Collector Task Routing Engine
+    然而系统里面没有日志    16ICC没有系统日志.png, 系统日志 16ICC日志log.zip
+    按照IBM人员要求修改配置，但是无法修改。LDAP认证失败 17AD验证失败.png
