@@ -82,4 +82,5 @@ Landsea4L   密码: asd456789
         重启服务后  0.3png  重启计算机
         然而还是没有系统日志 audit 没有文件， 日志  03加入AD域后的日志.log.zip
         IBM人说可能要修改邮件，修改配置，无法链接到exchange。准备明天联系   04.png  05.png  06.png
-    设置outlook以后，链接到了ad域，重启服务
+    设置outlook以后，链接到了ad域，重启服务 
+        仍然不行。用ad域打开outlook打不开，如果是
