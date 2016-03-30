@@ -76,3 +76,10 @@ Landsea4L   密码: asd456789
     重动 IBM Content Collector Task Routing Engine
     然而系统里面没有日志    16ICC没有系统日志.png, 系统日志 16ICC日志log.zip
     按照IBM人员要求修改配置，但是无法修改。LDAP认证失败 17AD验证失败.png
+    操作AD域以后记录    ./20160329AD域修改配置
+        可能需要加入AD域，按IBM人员要求加入AD域 01.png
+        之后关闭，保存，回退都会报错    02.png
+        重启服务后  0.3png  重启计算机
+        然而还是没有系统日志 audit 没有文件， 日志  03加入AD域后的日志.log.zip
+        IBM人说可能要修改邮件，修改配置，无法链接到exchange。准备明天联系   04.png  05.png  06.png
+    设置outlook以后，链接到了ad域，重启服务
