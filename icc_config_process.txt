@@ -82,4 +82,12 @@ Landsea4L   密码: asd456789
         重启服务后  0.3png  重启计算机
         然而还是没有系统日志 audit 没有文件， 日志  03加入AD域后的日志.log.zip
         IBM人说可能要修改邮件，修改配置，无法链接到exchange。准备明天联系   04.png  05.png  06.png
-    设置outlook以后，链接到了ad域，重启服务
+    设置outlook以后，链接到了ad域，重启服务 
+        仍然不行。用ad域打开outlook打不开，如果是
+    重新安装 outlook    ./20160330重新设置ad邮箱
+        但是用flenet登陆域以后无法登陆exchange服务器    失败    01.png
+            filenet@m.landsea.cn    filenet123
+        使用管理员登陆以后  也不行  失败    02.png
+        域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
+        管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
+            但是需要修改账户设置,无法发送邮件   06.png
