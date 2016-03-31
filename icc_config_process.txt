@@ -1,7 +1,7 @@
 wifi818 密码: 1234567890
 Landsea4L   密码: asd456789
 内网    192.168.103.119,    192.168.103.254
-安装电脑    192.168.1.188   Administrator   123456
+安装电脑    192.168.1.188   Administrator   landsea
 安装 .net Framkework 4 (done)
 安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
 安装 outlook    (没有输入密钥) (done)
@@ -91,3 +91,8 @@ Landsea4L   密码: asd456789
         域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
         管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
             但是需要修改账户设置,无法发送邮件   06.png
+尝试域内链接 exchange 服务  ./20160331域内链接exchange
+    怀疑是否需要POP 和 IMAP SMTP服务
+        检查账户状态    01.png  没有开启POP， IMAP， SMTP服务
+        和陈文源确认，他说没有需要打开POP3, SMTP的说明， ICC 使用MAPI形式访问exchange的服务的。 
+        怀疑是版本问题，查看 outlook 2007 百度发现需要 server 2003 及以上。系统是满足要求的 。 01.png
