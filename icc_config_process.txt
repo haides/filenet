@@ -96,3 +96,19 @@ Landsea4L   密码: asd456789
         检查账户状态    01.png  没有开启POP， IMAP， SMTP服务
         和陈文源确认，他说没有需要打开POP3, SMTP的说明， ICC 使用MAPI形式访问exchange的服务的。 
         怀疑是版本问题，查看 outlook 2007 百度发现需要 server 2003 及以上。系统是满足要求的 。 01.png
+更改host能够链接到邮件服务器了. ./20160401连接exchange后配置
+    已经能够用outlook发送电子邮件了 01.png
+IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级outlook
+    检查outlook原始版本 professional plus 2010 14.0.4760.1000(32位) 01.png
+    下载32补丁包进行安装，提示安装失败，原因不明    02.png
+        下载地址: http://download.microsoft.com/download/B/B/D/BBD98807-801E-4286-9D90-DBEBFA6809B9/officesuite2010sp1-kb2460049-x86-fullfile-zh-cn.exe
+    尝试64位补丁包进行安装，未能找到期望的产品版本  03.png
+        下载地址: http://download.microsoft.com/download/F/3/6/F3675AD9-0CD9-444C-9FDC-C85ECDD49E13/officesuite2010sp1-kb2460049-x64-fullfile-zh-cn.exe
+    尝试使用windows的自带更新:  04.png
+    询问朗诗是否有64位office, 有。安装office 2010 64位版本重新尝试
+        结果陈佳佳给我的是2016的, 仍然无法运行。
+准备安装2013的版本 ./20160407安装office2013
+    安装后事件里面仍然没有记录  日志文件 office2013_64位的日志.zip
+    需要修改注册表  查看陈工说的注册表  01.png,
+    陈工说不行，原来outlook2013需要用32位的客户端
+    安装了32位客户端以后，还是不行  02.png  日志文件 office2013_32位的日志.zip
