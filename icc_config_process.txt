@@ -112,3 +112,14 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     需要修改注册表  查看陈工说的注册表  01.png,
     陈工说不行，原来outlook2013需要用32位的客户端
     安装了32位客户端以后，还是不行  02.png  日志文件 office2013_32位的日志.zip
+重新按照IBM人员的要求重新配置Outlook    ./20160408重新配置outlook
+    使用和outlook同样的账户登陆 ICC server  filnet登陆icc server ./01.png
+    删除原来创建的outlook账户   02.png
+    创建新的outlook账户     03.png, 04.png
+    禁用Exchange cached mode.   05.png, 06.png
+    检查Outlook 是否能链接上去,可以的  07.png
+    重启服务,清空日志 IBM Content Collector web application 和 task routing engine
+    结果:
+        windows事件记录还是没有 08.png
+        系统仪表板 已访问的文档数还是 '~' 09.png
+        日志:   20160408_no_cached_log.zip
