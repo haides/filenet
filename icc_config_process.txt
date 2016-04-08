@@ -126,3 +126,5 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     把filenet用户加入组 Organization Management后重启
 增加了filenet的权限以后重启ICC  ./20160408增加filenet权限
     增加了filenet用户的权限 01.png
+    仍然没有事件记录， 系统仪表板还是 ~ 02.png
+    日志    log.zip
