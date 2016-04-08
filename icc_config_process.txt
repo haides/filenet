@@ -123,3 +123,6 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         windows事件记录还是没有 08.png
         系统仪表板 已访问的文档数还是 '~' 09.png
         日志:   20160408_no_cached_log.zip
+    把filenet用户加入组 Organization Management后重启
+增加了filenet的权限以后重启ICC  ./20160408增加filenet权限
+    增加了filenet用户的权限 01.png
