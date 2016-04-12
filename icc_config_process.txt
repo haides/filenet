@@ -147,3 +147,5 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     修改收集源后启动ICC 收集源: 邮箱 filenet@landsea.cn
         系统仪表板出现的错误    07.png
         log 日志    20160412_收集源_邮箱.log.zip
+    陈文源说需要查看邮箱的位置。
+        输入 get-mailbox 以后的结果 get-mailbox.txt
