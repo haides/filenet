@@ -149,3 +149,8 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         log 日志    20160412_收集源_邮箱.log.zip
     陈文源说需要查看邮箱的位置。
         输入 get-mailbox 以后的结果 get-mailbox.txt
+        修改收集源 mail01 的所有邮箱 和 mail02 的所有邮箱
+        设置文档类为 ICCmail 2
+        ICCAttachmentCorrelationKeys 设置无效,部分邮件无法归档
+        查看配置和日志，报错的属性是 ICCMail 3 的属性。如果设置不好的话就准备安装ICCMail 3 需要在filenet上安装搜索的功能。
+
