@@ -128,7 +128,7 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     增加了filenet用户的权限 01.png
     仍然没有事件记录， 系统仪表板还是 ~ 02.png
     日志    log.zip
-重新设置 outlook
+重新设置 outlook    ./20160412重新配置outlook
     删除配置文件    
     提示使用的配置文件  01.png
     新建配置文件    AFU_M.LANDSEA.CN
@@ -139,3 +139,11 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         启动 web application
         然后启动 task route engine
         然而归档的文件数还是 ~  05.png  因为没归档，但是audit里面有文件了
+    使用自定义的归档功能启动
+        有事件  06.png
+        audit 文件夹没有文件
+        log 日志见 20160412自定义归档任务的日志 20160412_服务器上的邮箱.log.zip
+            收集源: 服务器上的邮箱: m.landsea.cn
+    修改收集源后启动ICC 收集源: 邮箱 filenet@landsea.cn
+        系统仪表板出现的错误    07.png
+        log 日志    20160412_收集源_邮箱.log.zip
