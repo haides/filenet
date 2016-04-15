@@ -153,4 +153,9 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         设置文档类为 ICCmail 2
         ICCAttachmentCorrelationKeys 设置无效,部分邮件无法归档
         查看配置和日志，报错的属性是 ICCMail 3 的属性。
-            IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，明天才能回复。如果设置不好的话就准备安装ICCMail 3 需要在filenet上安装搜索的功能。
+            IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，
+                明天才能回复。如果设置不好的话就准备安装ICCMail 3 
+                需要在filenet上安装搜索的功能。
+准备安装 ICCMail 3
+    询问康赛是否安装了 css 
+    询问陈文源关于外网访问内网的问题。他说ICC只是一个中转，附件下载是用ICC web application的
