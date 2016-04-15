@@ -153,9 +153,20 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         设置文档类为 ICCmail 2
         ICCAttachmentCorrelationKeys 设置无效,部分邮件无法归档
         查看配置和日志，报错的属性是 ICCMail 3 的属性。
-            IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，
-                明天才能回复。如果设置不好的话就准备安装ICCMail 3 
-                需要在filenet上安装搜索的功能。
 准备安装 ICCMail 3
     询问康赛是否安装了 css 
     询问陈文源关于外网访问内网的问题。他说ICC只是一个中转，附件下载是用ICC web application的
+            IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，
+                明天才能回复。如果设置不好的话就准备安装ICCMail 3 
+                需要在filenet上安装搜索的功能。
+重新给icc建立一个对象存储库 ./20160414新建ICC对象存储库
+    但是帐号密码登陆不进去  因为ldap坏了，方京平正在找原因
+    新建对象存储库  FnosForIcc  01.png
+    选择数据库链接  FNOS_dbconnect  02.png
+    存储区域类型    归档    03.png
+    存储在 /image/fnosforicc    大  04.png
+    添加用户    05.png 06.png
+    配置点击 Workspace/Workspace XT 配置    07.png
+    最终配置    08.png, 09.png, 10.png
+    创建失败    11.png
+    把符号名称改成 OBJECTSTOREICC 仍然报错    12.png
