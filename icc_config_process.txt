@@ -1,6 +1,6 @@
 wifi818 密码: 1234567890
 Landsea4L   密码: asd456789
-内网    192.168.103.119,    192.168.103.254
+内网    192.168.103.119,    192.168.103.254  DNS 218.2.135.1
 安装电脑    192.168.1.188   Administrator   landsea
 安装 .net Framkework 4 (done)
 安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
@@ -170,5 +170,9 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     最终配置    08.png, 09.png, 10.png
     创建失败    11.png
     把符号名称改成 OBJECTSTOREICC 仍然报错    12.png
+    新建失败，更改模式名称来启动
+        新建    OSFORICC
+        模式名称    OSFORICC_dbconnect
+        结果仍然报错 insufficient privileges 13.png
 上午打电话给IBM的客服下了新的工单:
     工单号: 15661999672, 客服说工程师会联系我。暂时还没有来电话。
