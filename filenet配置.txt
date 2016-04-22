@@ -23,8 +23,8 @@ ldap    192.168.1.61    root    password
 oracle rac  192.168.1.56    orcl
 
     数据库账号  gcd 密码    abc1234
-	
+
         fnso    fnos
-		
+	
 权限控制选最后一个，但是不知道其意思
 

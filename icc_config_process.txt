@@ -1,7 +1,7 @@
 wifi818 密码: 1234567890
 Landsea4L   密码: asd456789
-内网    192.168.103.119,    192.168.103.254
-安装电脑    192.168.1.188   Administrator   123456
+内网    192.168.103.119,    192.168.103.254  DNS 218.2.135.1
+安装电脑    192.168.1.188   Administrator   landsea
 安装 .net Framkework 4 (done)
 安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
 安装 outlook    (没有输入密钥) (done)
@@ -91,3 +91,99 @@ Landsea4L   密码: asd456789
         域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
         管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
             但是需要修改账户设置,无法发送邮件   06.png
+尝试域内链接 exchange 服务  ./20160331域内链接exchange
+    怀疑是否需要POP 和 IMAP SMTP服务
+        检查账户状态    01.png  没有开启POP， IMAP， SMTP服务
+        和陈文源确认，他说没有需要打开POP3, SMTP的说明， ICC 使用MAPI形式访问exchange的服务的。 
+        怀疑是版本问题，查看 outlook 2007 百度发现需要 server 2003 及以上。系统是满足要求的 。 01.png
+更改host能够链接到邮件服务器了. ./20160401连接exchange后配置
+    已经能够用outlook发送电子邮件了 01.png
+IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级outlook
+    检查outlook原始版本 professional plus 2010 14.0.4760.1000(32位) 01.png
+    下载32补丁包进行安装，提示安装失败，原因不明    02.png
+        下载地址: http://download.microsoft.com/download/B/B/D/BBD98807-801E-4286-9D90-DBEBFA6809B9/officesuite2010sp1-kb2460049-x86-fullfile-zh-cn.exe
+    尝试64位补丁包进行安装，未能找到期望的产品版本  03.png
+        下载地址: http://download.microsoft.com/download/F/3/6/F3675AD9-0CD9-444C-9FDC-C85ECDD49E13/officesuite2010sp1-kb2460049-x64-fullfile-zh-cn.exe
+    尝试使用windows的自带更新:  04.png
+    询问朗诗是否有64位office, 有。安装office 2010 64位版本重新尝试
+        结果陈佳佳给我的是2016的, 仍然无法运行。
+准备安装2013的版本 ./20160407安装office2013
+    安装后事件里面仍然没有记录  日志文件 office2013_64位的日志.zip
+    需要修改注册表  查看陈工说的注册表  01.png,
+    陈工说不行，原来outlook2013需要用32位的客户端
+    安装了32位客户端以后，还是不行  02.png  日志文件 office2013_32位的日志.zip
+重新按照IBM人员的要求重新配置Outlook    ./20160408重新配置outlook
+    使用和outlook同样的账户登陆 ICC server  filnet登陆icc server ./01.png
+    删除原来创建的outlook账户   02.png
+    创建新的outlook账户     03.png, 04.png
+    禁用Exchange cached mode.   05.png, 06.png
+    检查Outlook 是否能链接上去,可以的  07.png
+    重启服务,清空日志 IBM Content Collector web application 和 task routing engine
+    结果:
+        windows事件记录还是没有 08.png
+        系统仪表板 已访问的文档数还是 '~' 09.png
+        日志:   20160408_no_cached_log.zip
+    把filenet用户加入组 Organization Management后重启
+增加了filenet的权限以后重启ICC  ./20160408增加filenet权限
+    增加了filenet用户的权限 01.png
+    仍然没有事件记录， 系统仪表板还是 ~ 02.png
+    日志    log.zip
+重新设置 outlook    ./20160412重新配置outlook
+    删除配置文件    
+    提示使用的配置文件  01.png
+    新建配置文件    AFU_M.LANDSEA.CN
+        02,03,04
+    只能自动配置
+    重启 ICC 服务
+        停止服务，删除日志
+        启动 web application
+        然后启动 task route engine
+        然而归档的文件数还是 ~  05.png  因为没归档，但是audit里面有文件了
+    使用自定义的归档功能启动
+        有事件  06.png
+        audit 文件夹没有文件
+        log 日志见 20160412自定义归档任务的日志 20160412_服务器上的邮箱.log.zip
+            收集源: 服务器上的邮箱: m.landsea.cn
+    修改收集源后启动ICC 收集源: 邮箱 filenet@landsea.cn
+        系统仪表板出现的错误    07.png
+        log 日志    20160412_收集源_邮箱.log.zip
+    陈文源说需要查看邮箱的位置。
+        输入 get-mailbox 以后的结果 get-mailbox.txt
+        修改收集源 mail01 的所有邮箱 和 mail02 的所有邮箱 08.png
+        设置文档类为 ICCmail 2
+        ICCAttachmentCorrelationKeys 设置无效,部分邮件无法归档
+        查看配置和日志，报错的属性是 ICCMail 3 的属性。
+准备安装 ICCMail 3
+    询问康赛是否安装了 css 
+    询问陈文源关于外网访问内网的问题。他说ICC只是一个中转，附件下载是用ICC web application的
+            IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，
+                明天才能回复。如果设置不好的话就准备安装ICCMail 3 
+                需要在filenet上安装搜索的功能。
+重新给icc建立一个对象存储库 ./20160414新建ICC对象存储库
+    但是帐号密码登陆不进去  因为ldap坏了，方京平正在找原因
+    新建对象存储库  FnosForIcc  01.png
+    选择数据库链接  FNOS_dbconnect  02.png
+    存储区域类型    归档    03.png
+    存储在 /image/fnosforicc    大  04.png
+    添加用户    05.png 06.png
+    配置点击 Workspace/Workspace XT 配置    07.png
+    最终配置    08.png, 09.png, 10.png
+    创建失败    11.png
+    把符号名称改成 OBJECTSTOREICC 仍然报错    12.png
+    新建失败，更改模式名称来启动
+        新建    OSFORICC
+        模式名称    OSFORICC_dbconnect
+        结果仍然报错 insufficient privileges 13.png
+上午打电话给IBM的客服下了新的工单:
+    工单号: 15661999672, 客服说工程师会联系我。暂时还没有来电话。
+新建对象存储库 ./20160420新建对象存储库
+    安装数据库,以此链接oracle  01.png - 13.png
+    无法使用管理员链接 oracle   13.png
+    让方京平帮我创建了用户,表空间 14.png 15.png
+    新建对象存储库  16.png
+    尝试不改变链接去创建存储库  16.png - 25.png 失败
+        虽然报错是创建表的权限不够 24.png
+        但是手动操作的画是有权限的. 25.png
+    尝试增加数据源，新建数据库链接  26.png - 49.png
+检测数据源  ./20160421新建对象存储库-2
+    测试新建的数据源的链接 01.png - 04.png
