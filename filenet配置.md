@@ -14,13 +14,24 @@ filenet账号密码 p8admin password
 		
         filenet 对象存储库名称  ceos
 		
-ldap    192.168.1.61    root    password
+# ldap    192.168.1.61    root    password
 
-    p8admin password
-	
-    链接ldap的
-	
-oracle rac  192.168.1.56    orcl
+## 启动 ldap
+    cd /opt/IBM/ldap/V6.3/sbin/
+    ./ibmslapd
+## 停止
+    ./ibmslapd -k
+
+## ldap 管理员账号密码
+p8admin password
+
+## 链接ldap的
+
+# oracle rac  192.168.1.56    orcl
+
+
+    管理员账号: sys, oracle
+
 
     数据库账号  gcd 密码    abc1234
 
