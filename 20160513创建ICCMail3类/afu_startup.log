@@ -1,0 +1,15 @@
+Scanning CommandLine
+Parameter: -service=ibm.ctms.webserviceconnector
+Starting connector [ibm.ctms.webserviceconnector]...
+Classpath: C:\Program Files (x86)\IBM\ContentCollector\ctms\JSON4J.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-webserviceconnector.jar;C:\Program Files (x86)\IBM\ContentCollector\lib\afu-logging.jar;C:\Program Files (x86)\IBM\ContentCollector\lib\icu4j-51_2.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-webserviceconnector.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\httpclient-4.2.2.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\httpcore-4.2.2.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\httpmime-4.2.2.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-nls.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-ufibridge.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\xml-webservice-connector.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\jsr173_1.0_api.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\resolver.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\xbean.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\xbean_xpath.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\xmlbeans-qname.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\xmlpublic.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\cos4j.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-crypto-access.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\afu-logging-aspect.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\aspectjrt.jar;C:\Program Files (x86)\IBM\ContentCollector\ctms\Commons-Logging.jar
+JVM dll: C:\Program Files (x86)\IBM\ContentCollector\java\jre\bin\j9vm\jvm.dll
+ServiceDeclarationID: ibm.ctms.webserviceconnector
+Java Class: com/ibm/afu/connector/webservice/WebserviceConnectorService
+Successfully loaded JVM library
+JVM created..
+Successfully attached thread to JVM
+Created connector java object, we're ready to start
+Argument for captureservice: -service=ibm.ctms.webserviceconnector
+Create Java appender to CTMS logging
+Adding Java appender
+Calling capture service
