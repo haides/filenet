@@ -4,15 +4,16 @@
 * Landsea4L   密码: asd456789
 * 内网    192.168.103.119,    192.168.103.254  DNS 218.2.135.1
 * 安装电脑    192.168.1.188   Administrator   landsea
-安装 .net Framkework 4 (done)
-安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
-安装 outlook    (没有输入密钥) (done)
-安装 CC_SVR
-    集群名称    icc_cluster
-    默认    端口11443
-    需要 filenet client
-安装 filenet client (done)
-安装 CC_SVR (done)
+# 基础安装
+1. 安装 .net Framkework 4 (done)
+2. 安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
+3. 安装 outlook    (没有输入密钥) (done)
+4. 安装 CC_SVR  
+    * 集群名称    icc_cluster  
+    * 默认    端口11443  
+    * 需要 filenet client  
+5. 安装 filenet client (done)  
+6. 安装 CC_SVR (done)
     资源值单元  RVU
     CN=filenet,CN=Users,DC=m,DC=landsea,DC=cn 密码: filenet123 (验证失败)
     filenet@m.landsea.cn 密码: filenet123
@@ -39,60 +40,61 @@
             过滤: 不选择 按时效过滤电子邮件
             无法选择filenet p8文档类
 
-远程链接: https://apps.na.collabserv.com/meetings/join?wrapped=true&launchpt=stmeet_url&id=7636-1754
-用的是http，所以需要安装微软软件。 链接 https://support.microsoft.com/en-us/kb/943508
-访问链接获取下载地址: http://hotfixv4.microsoft.com/Web%20Services%20Enhancements%203.0%20for%20.NET/latest/WSE3QFE1/3.0.6282.0/free/383444_intl_i386_zip.exe
+# 其他信息
+1. 远程链接: https://apps.na.collabserv.com/meetings/join?wrapped=true&launchpt=stmeet_url&id=7636-1754
+2. 用的是http，所以需要安装微软软件。 链接 https://support.microsoft.com/en-us/kb/943508
+3. 访问链接获取下载地址: http://hotfixv4.microsoft.com/Web%20Services%20Enhancements%203.0%20for%20.NET/latest/WSE3QFE1/3.0.6282.0/free/383444_intl_i386_zip.exe
 
-按照IBM陈文源要求重新安装filenet client :   ./20160328重新安装Client
+# 按照IBM陈文源要求重新安装filenet client [安装记录](./20160328重新安装Client)
 然而还是只有https， 重新安装filenet icc :   ./20160328重新安装icc
     创建P8文档类仍然失败，失败的日志见 AfuInitialConfigTrace_328_01.txt
     按照要求，重新打开icc set-up 配置界面，这次可以创见filenet 文档类了 ./20160328重新配置icc
 
-配置ICC ./20160329配置ICC
-    连接器-电子邮件-链接-自动配置
-        没有输入账号密码的窗口    01.png
-        而安装文档上有输入帐号密码的地方 02.png
-        使用文档上的配置参数无法进行下一步操作，只能默认    03.png
-        设置IBM Filenet P8连接器    04.png
-    配置任务系列
-        P8_CSS_EX_1.1 - Default Archiving (automatic).ctms  05.png
-        EC 收集一个月之前的电子邮件
-            常规    选择活动    06.png
-            收集源添加  服务器上的所有邮箱
-                删除 server.company.cn
-                邮件服务器: 192.168.1.105   07.png
-        缺省归档    设置为活动  08.png
-        P8查找重复邮件
-            文档类  ICCMail 2   09.png
-        P8归档电子邮件
-            公共设置
-                安装文档要选 ICCMail 3  11.png
-                但是只有文档类  ICCMail 2   10.png
-            实例设置
-                属性映射 默认没选，无法进行下一步 12.png
-                选择了 ICCMailInstance 2
-        点击保存
-    启动 IBM Content Collector Task Routing Engine(默认没启动) 13.png
-    点击工具的控制面板  查看状态    14.png
-    更改第一次启动收集时间为 12:00 并保存   15.png
-    重动 IBM Content Collector Task Routing Engine
-    然而系统里面没有日志    16ICC没有系统日志.png, 系统日志 16ICC日志log.zip
-    按照IBM人员要求修改配置，但是无法修改。LDAP认证失败 17AD验证失败.png
-    操作AD域以后记录    ./20160329AD域修改配置
-        可能需要加入AD域，按IBM人员要求加入AD域 01.png
-        之后关闭，保存，回退都会报错    02.png
-        重启服务后  0.3png  重启计算机
-        然而还是没有系统日志 audit 没有文件， 日志  03加入AD域后的日志.log.zip
-        IBM人说可能要修改邮件，修改配置，无法链接到exchange。准备明天联系   04.png  05.png  06.png
-    设置outlook以后，链接到了ad域，重启服务 
-        仍然不行。用ad域打开outlook打不开，如果是
-    重新安装 outlook    ./20160330重新设置ad邮箱
-        但是用flenet登陆域以后无法登陆exchange服务器    失败    01.png
-            filenet@m.landsea.cn    filenet123
-        使用管理员登陆以后  也不行  失败    02.png
-        域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
-        管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
-            但是需要修改账户设置,无法发送邮件   06.png
+# 配置ICC [安装记录](./20160329配置ICC)
+1. 连接器-电子邮件-链接-自动配置
+    * 没有输入账号密码的窗口    01.png
+    * 而安装文档上有输入帐号密码的地方 02.png
+    * 使用文档上的配置参数无法进行下一步操作，只能默认    03.png
+    * 设置IBM Filenet P8连接器    04.png
+2. 配置任务系列
+    * P8_CSS_EX_1.1 - Default Archiving (automatic).ctms  05.png
+    * EC 收集一个月之前的电子邮件
+        * 常规    选择活动    06.png
+        * 收集源添加  服务器上的所有邮箱
+            * 删除 server.company.cn
+            * 邮件服务器: 192.168.1.105   07.png
+    * 缺省归档    设置为活动  08.png
+    * P8查找重复邮件
+        * 文档类  ICCMail 2   09.png
+    * P8归档电子邮件
+        * 公共设置
+            * 安装文档要选 ICCMail 3  11.png
+            * 但是只有文档类  ICCMail 2   10.png
+        * 实例设置
+            * 属性映射 默认没选，无法进行下一步 12.png
+            * 选择了 ICCMailInstance 2
+    * 点击保存
+3. 启动 IBM Content Collector Task Routing Engine(默认没启动) 13.png
+4. 点击工具的控制面板  查看状态    14.png
+5. 更改第一次启动收集时间为 12:00 并保存   15.png
+6. 重动 IBM Content Collector Task Routing Engine
+7. 然而系统里面没有日志    16ICC没有系统日志.png, 系统日志 16ICC日志log.zip
+8. 按照IBM人员要求修改配置，但是无法修改。LDAP认证失败 17AD验证失败.png
+9. 操作AD域以后记录    ./20160329AD域修改配置
+    * 可能需要加入AD域，按IBM人员要求加入AD域 01.png
+    * 之后关闭，保存，回退都会报错    02.png
+    * 重启服务后  0.3png  重启计算机
+    * 然而还是没有系统日志 audit 没有文件， 日志  03加入AD域后的日志.log.zip
+    * IBM人说可能要修改邮件，修改配置，无法链接到exchange。准备明天联系   04.png  05.png  06.png
+10. 设置outlook以后，链接到了ad域，重启服务 
+    * 仍然不行。用ad域打开outlook打不开，如果是
+11. 重新安装 outlook    ./20160330重新设置ad邮箱
+    * 但是用flenet登陆域以后无法登陆exchange服务器    失败    01.png
+        * filenet@m.landsea.cn    filenet123
+    * 使用管理员登陆以后  也不行  失败    02.png
+    * 域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
+    * 管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
+        * 但是需要修改账户设置,无法发送邮件   06.png
 尝试域内链接 exchange 服务  ./20160331域内链接exchange
     怀疑是否需要POP 和 IMAP SMTP服务
         检查账户状态    01.png  没有开启POP， IMAP， SMTP服务
@@ -114,7 +116,7 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     需要修改注册表  查看陈工说的注册表  01.png,
     陈工说不行，原来outlook2013需要用32位的客户端
     安装了32位客户端以后，还是不行  02.png  日志文件 office2013_32位的日志.zip
-重新按照IBM人员的要求重新配置Outlook    ./20160408重新配置outlook
+# 重新按照IBM人员的要求重新配置Outlook    [安装记录](./20160408重新配置outlook)
     使用和outlook同样的账户登陆 ICC server  filnet登陆icc server ./01.png
     删除原来创建的outlook账户   02.png
     创建新的outlook账户     03.png, 04.png
@@ -126,11 +128,11 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         系统仪表板 已访问的文档数还是 '~' 09.png
         日志:   20160408_no_cached_log.zip
     把filenet用户加入组 Organization Management后重启
-增加了filenet的权限以后重启ICC  ./20160408增加filenet权限
-    增加了filenet用户的权限 01.png
-    仍然没有事件记录， 系统仪表板还是 ~ 02.png
-    日志    log.zip
-重新设置 outlook    ./20160412重新配置outlook
+# 增加了filenet的权限以后重启ICC  [安装记录](./20160408增加filenet权限)
+1. 增加了filenet用户的权限 01.png
+2. 仍然没有事件记录， 系统仪表板还是 ~ 02.png
+3. 日志    log.zip
+# 重新设置 outlook    [安装记录](./20160412重新配置outlook)
     删除配置文件    
     提示使用的配置文件  01.png
     新建配置文件    AFU_M.LANDSEA.CN
@@ -155,7 +157,8 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
         设置文档类为 ICCmail 2
         ICCAttachmentCorrelationKeys 设置无效,部分邮件无法归档
         查看配置和日志，报错的属性是 ICCMail 3 的属性。
-准备安装 ICCMail 3
+
+# 准备安装 ICCMail 3
     询问康赛是否安装了 css 
     询问陈文源关于外网访问内网的问题。他说ICC只是一个中转，附件下载是用ICC web application的
             IBM的陈文源说他这个问题要联系北美的工程师解决，所以在联系，
@@ -229,10 +232,14 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
 1. 创建成功
 ## 创建ICCMail3
 1. 启动失败     09.png 10.png
-## 重新配置 ICC ./20160517尝试初始化配置ICC
+## 重新配置 ICC [安装记录](./20160517尝试初始化配置ICC)
 1. 初始配置必须用admin用户登录才能链接服务器，否则无法验证ldap  03.png, 04.png
 2. 初始配置 05.png - 06.png 有警告 06.log
 3. 配置完成后仍然无法配置存储库链接 07.png
-## 重现ICC无法启动的情况    ./20160518重启ICC查看日志
-## 重设ICC服务的密码    ./20160518重设服务的密码
+## 重现ICC无法启动的情况 [安装记录](./20160518重启ICC查看日志)
+## 重设ICC服务的密码 [安装记录](./20160518重设服务的密码)
 1. 三个服务启动成功
+## 新建一个任务 [安装记录](./20160518新建ICC任务)
+1. 启动失败, ctms 的 audit 文件夹里面没有文件, windows没有产生事件
+    * 截屏 01任务(上).png 02任务(下).png 03系统仪表板有错误.png 04电子邮件连接成功.png 05仅仅收集电子邮件的任务.png
+    * 日志: log.zip
