@@ -1,0 +1,475 @@
+﻿2016-05-19T07:30:21.033Z CONFIG	 [0] 
+	************* Start Display Current Logging Config   *************
+		Config file: null
+
+	logDirPath          = C:\Program Files (x86)\IBM\ContentCollector\Configuration\initialConfig\log
+	traceFileName       = AfuInitialConfigTrace.log
+	traceFileLimit      = 33554432
+	traceFileCount      = 1
+	traceFileAppend     = false
+	traceOn             = true
+	plainTraceOn        = false
+	systemOutFileName   = AfuInitialConfigSystemout.log
+	systemOutFileLimit  = 33554432
+	systemOutFileCount  = 1
+	systemOutFileAppend = false
+	consoleOn           = false
+	com.ibm.afu=FINEST
+	*************  End Display Current Logging Config    *************
+	 [com.ibm.afu.logging.cbe.LoggingConfiguration logConfig] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [1] Application - IBMAFUROOT: C:\Program Files (x86)\IBM\ContentCollector	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [2] IBMAFUROOT: C:\Program Files (x86)\IBM\ContentCollector	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [3] IBMAFUDB2ROOT: null	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [4] IBMAFUNOTES: null	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [5] java.library.path: C:\Program Files (x86)\IBM\ContentCollector\java\jre\bin;C:\Windows\SysWOW64;C:\Windows;C:\Python27\;C:\Python27\Scripts;C:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\FileNet\ContentEngine\bin;C:\Program Files (x86)\IBM\ContentCollector\bin;C:\Program Files (x86)\IBM\ContentCollector\lib;C:\Program Files (x86)\IBM\ContentCollector\ctms;;;.	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [6] IBMAFUFNCEROOT: C:\Program Files (x86)\IBM\FileNet\CEClient	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [7] PROGRAMFILES: C:\Program Files (x86)	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [8] IBMCMROOT: null	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [9] Right to left support: false	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [10] Left to right support: true	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [11] Default language: zh_CN	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [12] Version: 4.0.1.0-20150217-1017	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [13]  RFT bundle not detected. Bundle: com.rational.test.ft.enabler.wsw	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z FINE	 [14] Original component orientation right to left: false	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z FINE	 [15] Original component orientation left to right: true	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z FINE	 [16] Original component orientation unknown: false	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.049Z INFO	 [17] Initial Configuration started	 [com.ibm.afu.initialconfig.Application initialize] [main 0]
+2016-05-19T07:30:21.080Z FINE	 [18] Start wizard for initial configuration	 [com.ibm.afu.initialconfig.Application startWizard] [main 0]
+2016-05-19T07:30:21.174Z FINE	 [19] Load configuration: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\initialConfig\data\AfuInitialConfig.xml>	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [20] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Email-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [21] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Email_PVU-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [22] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Email_PVU_non_Prod-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [23] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Email_RVU-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [24] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Email-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [25] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Email_PVU-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [26] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Email_PVU_non_Prod-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [27] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Email_RVU-4.0.1.swtag exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [28] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_File_Systems-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [29] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_File_Systems_PVU-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [30] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_File_Systems_PVU_non_Prod-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [31] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\notexistsIBM_Content_Collector_-_Server_for_File_Systems-4.0.1.swtag.bak does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [32] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_File_Systems-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [33] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_File_Systems_PVU-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [34] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_File_Systems_PVU_non_Prod-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [35] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\notexistsIBM_Content_Collector_-_Server_for_File_Systems-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [36] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [37] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint_PVU-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [38] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint_PVU_non_Prod-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [39] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\notexistsIBM_Content_Collector_-_Server_for_Microsoft_SharePoint-4.0.1.swtag.bak does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [40] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [41] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint_PVU-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [42] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Microsoft_SharePoint_PVU_non_Prod-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [43] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\notexistsIBM_Content_Collector_-_Server_for_Microsoft_SharePoint-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [44] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_IBM_Connections-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [45] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_IBM_Connections_PVU-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [46] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\IBM_Content_Collector_-_Server_for_IBM_Connections_PVU_non_Prod-4.0.1.swtag.bak exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [47] License source file: <C:\Program Files (x86)\IBM\ContentCollector\Configuration\license\notexistsIBM_Content_Collector_-_Server_for_IBM_Connections-4.0.1.swtag.bak does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineInstalledLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [48] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_IBM_Connections-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [49] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_IBM_Connections_PVU-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [50] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_IBM_Connections_PVU_non_Prod-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.175Z FINEST	 [51] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\notexistsIBM_Content_Collector_-_Server_for_IBM_Connections-4.0.1.swtag does not exists.	 [com.ibm.afu.initialconfig.settings.licensing.LicensingConfiguration determineUsedLicense] [main 0]
+2016-05-19T07:30:22.222Z FINE	 [70] Version check for P8 4.5.0 or lower: wsi directory <C:\Program Files (x86)\IBM\FileNet\CEClient\wsi> does not exist.	 [com.ibm.afu.initialconfig.InitialConfigWizard isP8WSIDirectoryDetected] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [71] Initial configuration run detected with/after version 2.1.1.0: true	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [72] Run in initial configuration mode: true	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [73] Run with mail support: true	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [74] Run in Content Manager enablement mode: false	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [75] Run in license mode: false	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.222Z INFO	 [76] P8 WSI directory found: false	 [com.ibm.afu.initialconfig.InitialConfigWizard initialize] [main 0]
+2016-05-19T07:30:22.237Z INFO	 [77] URL: bundleentry://11.fwk84149508/icons/1.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [78] URL: bundleentry://11.fwk84149508/icons/ICC_System_Configuration_V22.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [79] URL: bundleentry://11.fwk84149508/icons/ICC_System_Configuration_V22.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [80] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [81] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [82] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [83] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [84] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [85] URL: bundleentry://11.fwk84149508/icons/6.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [86] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.253Z INFO	 [87] URL: bundleentry://11.fwk84149508/icons/ICC_SMTP_Configuration_V22.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [88] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [89] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [90] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [91] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [92] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [93] URL: bundleentry://11.fwk84149508/icons/4_lotusdomino.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [94] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [95] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [96] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [97] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [98] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [99] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [100] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [101] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [102] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [103] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [104] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [105] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [106] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.269Z INFO	 [107] URL: bundleentry://11.fwk84149508/icons/5a.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [108] Add page to wizard: Initial Configuration Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [109] Add page to wizard: License Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [110] Add page to wizard: System Selection Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [111] Add page to wizard: Domino Credential Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [112] Add page to wizard: Domino Template Location Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [113] Add page to wizard: Domino Template Elements Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [114] Add page to wizard: Exchange Credential Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [115] Add page to wizard: SMTP Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [116] Add page to wizard: SharePoint page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [117] Add page to wizard: Connections page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [118] Add page to wizard: Content Manager 配置	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [119] Add page to wizard: Content Manager 配置	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [120] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [121] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [122] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [123] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [124] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [125] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [126] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [127] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [128] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [129] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [130] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [131] Add page to wizard: Content Manager Itemtype Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [132] Add page to wizard: P8 server page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [133] Add page to wizard: P8 server page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [134] Add page to wizard: P8 server page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [135] Add page to wizard: P8 server page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [136] Add page to wizard: P8 server page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [137] Add page to wizard: Web Application Server Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.362Z FINE	 [138] Add page to wizard: Execution Page	 [com.ibm.afu.initialconfig.InitialConfigWizard addPagesForInitialConfigMode] [main 0]
+2016-05-19T07:30:22.847Z INFO	 [139] Environment variable <IBMAFUFNCEROOT>: <C:\Program Files (x86)\IBM\FileNet\CEClient>	 [com.ibm.afu.initialconfig.helper.PrereqChecker isEnvironmentPrereqSet] [main 0]
+2016-05-19T07:30:22.847Z INFO	 [140] Environment variable <IBMAFUFNCEROOT>: <C:\Program Files (x86)\IBM\FileNet\CEClient>	 [com.ibm.afu.initialconfig.helper.PrereqChecker isEnvironmentPrereqSet] [main 0]
+2016-05-19T07:30:23.300Z INFO	 [141] Determine default language for id <zh>: NOT FOUND	 [com.ibm.afu.initialconfig.pages.DominoTemplateElementsPage getDefaultSelectedLanguages] [main 0]
+2016-05-19T07:30:23.300Z INFO	 [142] Determine default language and country code <zh_CN>: 简体中文	 [com.ibm.afu.initialconfig.pages.DominoTemplateElementsPage getDefaultSelectedLanguages] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [143] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [144] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [145] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [146] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [147] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.582Z FINE	 [148] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [149] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [150] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [151] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [152] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [153] Do not display data model selection -> Initial configuration mode	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:23.675Z FINE	 [154] Do not display data model selection -> Is installed after 211	 [com.ibm.afu.initialconfig.pages.ContentManagerPage displayDatamodelSelection] [main 0]
+2016-05-19T07:30:25.551Z FINEST	 [155] WSE installed -> put http protocol to selection	 [com.ibm.afu.initialconfig.pages.P8ServerPage setPageValues] [main 0]
+2016-05-19T07:30:26.020Z INFO	 [156] Closing splash screen.	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog initializeBounds] [main 0]
+2016-05-19T07:30:40.606Z FINE	 [157] Current page: com.ibm.afu.initialconfig.pages.LicensePage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:30:49.611Z FINEST	 [158] License target file: <C:\Program Files (x86)\IBM\ContentCollector\properties\version\IBM_Content_Collector_-_Server_for_Email_RVU-4.0.1.swtag> already exists -> do not copy from source.	 [com.ibm.afu.initialconfig.jobs.LicenseJob copyUsedLicenseFiles] [main 0]
+2016-05-19T07:30:49.611Z FINE	 [159] Current page: com.ibm.afu.initialconfig.pages.SystemConfigPage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:30:55.442Z FINE	 [160] Current page: com.ibm.afu.initialconfig.pages.ExchangePage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:31:55.911Z FINE	 [161] Active directory user validation job started	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob run] [Worker-0 1]
+2016-05-19T07:31:55.911Z FINE	 [162] Active directory user validation for user: <CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn>	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob run] [Worker-0 1]
+2016-05-19T07:31:55.926Z FINE	 [163] Validate active directory user: <CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn> for domain <m.landsea.cn>	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob validateActiveDirectoryUser] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINEST	 [164] Quering dns for SRV record: _ldap._tcp.m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.dns.DnsResolver getEntry] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINEST	 [165] DNS returned record: dc01.m.landsea.cn:389 checking if the host is reachable	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.dns.DnsResolver getEntry] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINEST	 [166] Doing GC lookup for: m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.dns.DnsResolver resolveLdapSettings] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINEST	 [167] Quering dns for SRV record: _gc._tcp.m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.dns.DnsResolver getEntry] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINEST	 [168] DNS returned record: dc01.m.landsea.cn:3268 checking if the host is reachable	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.dns.DnsResolver getEntry] [Worker-0 1]
+2016-05-19T07:31:56.051Z FINE	 [169] Active directory global catalog host: <dc01.m.landsea.cn>, port: 3268, dcPort: 389	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob validateActiveDirectoryUser] [Worker-0 1]
+2016-05-19T07:31:56.067Z FINEST	 [170] Failed to read domain dc/gc settings from DNS, error:DNS name not found [response code 3]	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapContextFactory create] [Worker-0 1]
+2016-05-19T07:31:56.646Z FINE	 [171] TLS established with host: dc01.m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapContextFactory startTLS] [Worker-0 1]
+2016-05-19T07:31:56.661Z INFO	 [172] Logon successfull for CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn on machine ldap://dc01.m.landsea.cn:3268 TLS:true SSL: false	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapContextFactory attemptConnection] [Worker-0 1]
+2016-05-19T07:31:56.677Z FINE	 [173] Auto discovery user: <filenet@m.landsea.cn>, domain: <m.landsea.cn>	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob validateActiveDirectoryUser] [Worker-0 1]
+2016-05-19T07:31:56.692Z FINEST	 [174] Obtaining rpc settings for user: filenet@m.landsea.cn, email: filenet@m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainRpcOverHttpSettings] [Worker-0 1]
+2016-05-19T07:31:56.692Z FINEST	 [175] Creating new context instance for provider: ldap://dc01.m.landsea.cn:3268	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.ContextThreadLocals initialValue] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [176] Accessing DSE	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [177] Found attribute:isSynchronized Value:TRUE	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [178] Found attribute:supportedLDAPVersion Value:3,2	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [179] Found attribute:serverName Value:CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [180] Found attribute:supportedSASLMechanisms Value:GSSAPI,GSS-SPNEGO,EXTERNAL,DIGEST-MD5	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [181] Found attribute:ldapServiceName Value:m.landsea.cn:dc01$@M.LANDSEA.CN	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [182] Found attribute:namingContexts Value:DC=m,DC=landsea,DC=cn,CN=Configuration,DC=m,DC=landsea,DC=cn,CN=Schema,CN=Configuration,DC=m,DC=landsea,DC=cn,DC=DomainDnsZones,DC=m,DC=landsea,DC=cn,DC=ForestDnsZones,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [183] Found attribute:domainControllerFunctionality Value:5	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [184] Found attribute:supportedLDAPPolicies Value:MaxPoolThreads,MaxDatagramRecv,MaxReceiveBuffer,InitRecvTimeout,MaxConnections,MaxConnIdleTime,MaxPageSize,MaxBatchReturnMessages,MaxQueryDuration,MaxTempTableSize,MaxResultSetSize,MinResultSets,MaxResultSetsPerConn,MaxNotificationPerConn,MaxValRange	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [185] Found attribute:forestFunctionality Value:5	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [186] Found attribute:configurationNamingContext Value:CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [187] configurationNamingContext:CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [188] Found attribute:rootDomainNamingContext Value:DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [189] Found attribute:schemaNamingContext Value:CN=Schema,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [190] Found attribute:subschemaSubentry Value:CN=Aggregate,CN=Schema,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [191] Found attribute:supportedControl Value:1.2.840.113556.1.4.319,1.2.840.113556.1.4.801,1.2.840.113556.1.4.473,1.2.840.113556.1.4.528,1.2.840.113556.1.4.417,1.2.840.113556.1.4.619,1.2.840.113556.1.4.841,1.2.840.113556.1.4.529,1.2.840.113556.1.4.805,1.2.840.113556.1.4.521,1.2.840.113556.1.4.970,1.2.840.113556.1.4.1338,1.2.840.113556.1.4.474,1.2.840.113556.1.4.1339,1.2.840.113556.1.4.1340,1.2.840.113556.1.4.1413,2.16.840.1.113730.3.4.9,2.16.840.1.113730.3.4.10,1.2.840.113556.1.4.1504,1.2.840.113556.1.4.1852,1.2.840.113556.1.4.802,1.2.840.113556.1.4.1907,1.2.840.113556.1.4.1948,1.2.840.113556.1.4.1974,1.2.840.113556.1.4.1341,1.2.840.113556.1.4.2026,1.2.840.113556.1.4.2064,1.2.840.113556.1.4.2065,1.2.840.113556.1.4.2066,1.2.840.113556.1.4.2090,1.2.840.113556.1.4.2205,1.2.840.113556.1.4.2204,1.2.840.113556.1.4.2206,1.2.840.113556.1.4.2211,1.2.840.113556.1.4.2239	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [192] Found attribute:highestCommittedUSN Value:4356942	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [193] Found attribute:domainFunctionality Value:5	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [194] Found attribute:dnsHostName Value:DC01.m.landsea.cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [195] Found attribute:currentTime Value:20160519073157.0Z	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [196] Found attribute:dsServiceName Value:CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [197] Found attribute:isGlobalCatalogReady Value:TRUE	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [198] Found attribute:defaultNamingContext Value:DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [199] Found attribute:supportedCapabilities Value:1.2.840.113556.1.4.800,1.2.840.113556.1.4.1670,1.2.840.113556.1.4.1791,1.2.840.113556.1.4.1935,1.2.840.113556.1.4.2080,1.2.840.113556.1.4.2237	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher fetchAttributeContextFromDSE] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [200] ------------------------------------------------------	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher getObjectsCNAdvanced] [Worker-0 1]
+2016-05-19T07:31:56.708Z FINEST	 [201] searching with scope=GLOBAL;2 for: baseDN:CN=Configuration,DC=m,DC=landsea,DC=cn; filter:(&(objectClass=serviceConnectionPoint)(|(keywords=67661d7F-8FC4-4fa7-BFAC-E1D7794C1F68)(keywords=77378F46-2C66-4aa9-A6A6-3E7A48B19596))); attributes:(cn, keywords, serviceBindingInformation)	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher getObjectsCNAdvanced] [Worker-0 1]
+2016-05-19T07:31:56.755Z FINEST	 [202] found CN: CN=CAS01,CN=Autodiscover,CN=Protocols,CN=CAS01,CN=Servers,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher getObjectsCNAdvanced] [Worker-0 1]
+2016-05-19T07:31:56.755Z FINEST	 [203] found CN: CN=CAS02,CN=Autodiscover,CN=Protocols,CN=CAS02,CN=Servers,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher getObjectsCNAdvanced] [Worker-0 1]
+2016-05-19T07:31:56.755Z FINEST	 [204] ------------------------------------------------------	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.ldap.LdapDispatcher getObjectsCNAdvanced] [Worker-0 1]
+2016-05-19T07:31:56.755Z FINEST	 [205] SCP Record DistinguishedName: CN=CAS01,CN=Autodiscover,CN=Protocols,CN=CAS01,CN=Servers,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.771Z FINEST	 [206] Keywords:Site=Default-First-Site-Name	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.771Z FINEST	 [207] ServiceBindingInformation:https://Cas01.m.landsea.cn/Autodiscover/Autodiscover.xml	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.771Z FINEST	 [208] SCP Record DistinguishedName: CN=CAS02,CN=Autodiscover,CN=Protocols,CN=CAS02,CN=Servers,CN=Exchange Administrative Group (FYDIBOHF23SPDLT),CN=Administrative Groups,CN=First Organization,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=m,DC=landsea,DC=cn	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.771Z FINEST	 [209] Keywords:Site=Default-First-Site-Name	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.771Z FINEST	 [210] ServiceBindingInformation:https://Cas02.m.landsea.cn/Autodiscover/Autodiscover.xml	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainServiceBindingInformation] [Worker-0 1]
+2016-05-19T07:31:56.817Z FINE	 [211] Autodiscover request: <Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006"><Request><EMailAddress>filenet@m.landsea.cn</EMailAddress><AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema></Request></Autodiscover>	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainRpcOverHttpSettings] [Worker-0 1]
+2016-05-19T07:31:58.224Z FINE	 [212] HTTP post: POST https://Cas02.m.landsea.cn/Autodiscover/Autodiscover.xml HTTP/1.1	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainRpcOverHttpSettings] [Worker-0 1]
+2016-05-19T07:31:58.240Z FINE	 [213] Autodiscover returned result: <?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+    <User>
+      <DisplayName>filenet</DisplayName>
+      <LegacyDN>/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=86fa0edc9c21403fb1a25798bcf3e3b8-filen</LegacyDN>
+      <AutoDiscoverSMTPAddress>filenet@landsea.cn</AutoDiscoverSMTPAddress>
+      <DeploymentId>f3c91a19-2f15-4e3c-8981-1eaae613f244</DeploymentId>
+    </User>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <MicrosoftOnline>False</MicrosoftOnline>
+      <Protocol>
+        <Type>EXCH</Type>
+        <Server>399106e3-6a6b-461e-85d9-411611403c91@landsea.cn</Server>
+        <ServerDN>/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=399106e3-6a6b-461e-85d9-411611403c91@landsea.cn</ServerDN>
+        <ServerVersion>73C0834F</ServerVersion>
+        <MdbDN>/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=399106e3-6a6b-461e-85d9-411611403c91@landsea.cn/cn=Microsoft Private MDB</MdbDN>
+        <PublicFolderServer>m.landsea.cn</PublicFolderServer>
+        <AD>DC01.m.landsea.cn</AD>
+        <ASUrl>https://cas01.m.landsea.cn/EWS/Exchange.asmx</ASUrl>
+        <EwsUrl>https://cas01.m.landsea.cn/EWS/Exchange.asmx</EwsUrl>
+        <EmwsUrl>https://cas01.m.landsea.cn/EWS/Exchange.asmx</EmwsUrl>
+        <EcpUrl>https://cas02.m.landsea.cn/ecp/</EcpUrl>
+        <EcpUrl-um>?rfr=olk&amp;p=customize/voicemail.aspx&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-um>
+        <EcpUrl-aggr>?rfr=olk&amp;p=personalsettings/EmailSubscriptions.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-aggr>
+        <EcpUrl-mt>PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;exsvurl=1&amp;IsOWA=&lt;IsOWA&gt;&amp;MsgID=&lt;MsgID&gt;&amp;Mbx=&lt;Mbx&gt;&amp;realm=m.landsea.cn</EcpUrl-mt>
+        <EcpUrl-ret>?rfr=olk&amp;p=organize/retentionpolicytags.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-ret>
+        <EcpUrl-sms>?rfr=olk&amp;p=sms/textmessaging.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-sms>
+        <EcpUrl-publish>customize/calendarpublishing.slab?rfr=olk&amp;exsvurl=1&amp;FldID=&lt;FldID&gt;&amp;realm=m.landsea.cn</EcpUrl-publish>
+        <EcpUrl-photo>PersonalSettings/EditAccount.aspx?rfr=olk&amp;chgPhoto=1&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-photo>
+        <EcpUrl-tm>?rfr=olk&amp;ftr=TeamMailbox&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tm>
+        <EcpUrl-tmCreating>?rfr=olk&amp;ftr=TeamMailboxCreating&amp;SPUrl=&lt;SPUrl&gt;&amp;Title=&lt;Title&gt;&amp;SPTMAppUrl=&lt;SPTMAppUrl&gt;&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tmCreating>
+        <EcpUrl-tmEditing>?rfr=olk&amp;ftr=TeamMailboxEditing&amp;Id=&lt;Id&gt;&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tmEditing>
+        <EcpUrl-extinstall>Extension/InstalledExtensions.slab?rfr=olk&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-extinstall>
+        <OOFUrl>https://cas01.m.landsea.cn/EWS/Exchange.asmx</OOFUrl>
+        <UMUrl>https://cas01.m.landsea.cn/EWS/UM2007Legacy.asmx</UMUrl>
+        <OABUrl>https://cas01.m.landsea.cn/OAB/4b9d7141-7822-4ed7-937f-f9703ec4c3ac/</OABUrl>
+        <ServerExclusiveConnect>off</ServerExclusiveConnect>
+      </Protocol>
+      <Protocol>
+        <Type>EXPR</Type>
+        <Server>m.landsea.cn</Server>
+        <SSL>On</SSL>
+        <AuthPackage>Ntlm</AuthPackage>
+        <ASUrl>https://m.landsea.cn/ews/exchange.asmx</ASUrl>
+        <EwsUrl>https://m.landsea.cn/ews/exchange.asmx</EwsUrl>
+        <EmwsUrl>https://m.landsea.cn/ews/exchange.asmx</EmwsUrl>
+        <EcpUrl>https://m.landsea.cn/ecp/</EcpUrl>
+        <EcpUrl-um>?rfr=olk&amp;p=customize/voicemail.aspx&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-um>
+        <EcpUrl-aggr>?rfr=olk&amp;p=personalsettings/EmailSubscriptions.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-aggr>
+        <EcpUrl-mt>PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;exsvurl=1&amp;IsOWA=&lt;IsOWA&gt;&amp;MsgID=&lt;MsgID&gt;&amp;Mbx=&lt;Mbx&gt;&amp;realm=m.landsea.cn</EcpUrl-mt>
+        <EcpUrl-ret>?rfr=olk&amp;p=organize/retentionpolicytags.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-ret>
+        <EcpUrl-sms>?rfr=olk&amp;p=sms/textmessaging.slab&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-sms>
+        <EcpUrl-publish>customize/calendarpublishing.slab?rfr=olk&amp;exsvurl=1&amp;FldID=&lt;FldID&gt;&amp;realm=m.landsea.cn</EcpUrl-publish>
+        <EcpUrl-photo>PersonalSettings/EditAccount.aspx?rfr=olk&amp;chgPhoto=1&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-photo>
+        <EcpUrl-tm>?rfr=olk&amp;ftr=TeamMailbox&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tm>
+        <EcpUrl-tmCreating>?rfr=olk&amp;ftr=TeamMailboxCreating&amp;SPUrl=&lt;SPUrl&gt;&amp;Title=&lt;Title&gt;&amp;SPTMAppUrl=&lt;SPTMAppUrl&gt;&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tmCreating>
+        <EcpUrl-tmEditing>?rfr=olk&amp;ftr=TeamMailboxEditing&amp;Id=&lt;Id&gt;&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-tmEditing>
+        <EcpUrl-extinstall>Extension/InstalledExtensions.slab?rfr=olk&amp;exsvurl=1&amp;realm=m.landsea.cn</EcpUrl-extinstall>
+        <OOFUrl>https://m.landsea.cn/ews/exchange.asmx</OOFUrl>
+        <UMUrl>https://m.landsea.cn/ews/UM2007Legacy.asmx</UMUrl>
+        <OABUrl>https://m.landsea.cn/OAB/4b9d7141-7822-4ed7-937f-f9703ec4c3ac/</OABUrl>
+        <ServerExclusiveConnect>on</ServerExclusiveConnect>
+        <EwsPartnerUrl>https://m.landsea.cn/ews/exchange.asmx</EwsPartnerUrl>
+        <GroupingInformation>Default-First-Site-Name</GroupingInformation>
+      </Protocol>
+      <Protocol>
+        <Type>WEB</Type>
+        <Internal>
+          <OWAUrl AuthenticationMethod="Basic, Fba">https://cas01.m.landsea.cn/owa/</OWAUrl>
+          <OWAUrl AuthenticationMethod="Basic, Fba">https://cas02.m.landsea.cn/owa/</OWAUrl>
+          <Protocol>
+            <Type>EXCH</Type>
+            <ASUrl>https://cas01.m.landsea.cn/EWS/Exchange.asmx</ASUrl>
+          </Protocol>
+        </Internal>
+        <External>
+          <OWAUrl AuthenticationMethod="Fba">https://m.landsea.cn/owa/</OWAUrl>
+          <Protocol>
+            <Type>EXPR</Type>
+            <ASUrl>https://m.landsea.cn/ews/exchange.asmx</ASUrl>
+          </Protocol>
+        </External>
+      </Protocol>
+      <PublicFolderInformation>
+        <SmtpAddress>ittest1@landsea.cn</SmtpAddress>
+      </PublicFolderInformation>
+    </Account>
+  </Response>
+</Autodiscover>	 [com.ibm.afu.mailinterface.mapi.ldap.activeDirectory.resolver.ServiceConnectionPointResolver obtainRpcOverHttpSettings] [Worker-0 1]
+2016-05-19T07:31:58.615Z FINE	 [214] Active directory user validation job ended	 [com.ibm.afu.initialconfig.jobs.WindowsUserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:00.288Z FINE	 [215] Current page: com.ibm.afu.initialconfig.pages.P8ServerPage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:33:26.145Z FINE	 [216] P8 user validation job started	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:26.145Z FINE	 [217] P8 user validation for user: <p8admin>	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:26.145Z INFO	 [218] Executing command <"C:\Program Files (x86)\IBM\ContentCollector\java\jre\bin\java.exe" -cp "C:\Program Files (x86)\IBM\FileNet\CEClient\lib\*;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8.jar;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8search.jar;" com.ibm.afu.initialconfig.p8.P8Validation -validate http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ p8admin ********> in directory <C:\Program Files (x86)\IBM\ContentCollector>	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:33:27.349Z INFO	 [219] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [220] OUTPUT>P8Validation: Validation of P8 credentials	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [221] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [222] OUTPUT>Licensed Materials - Property of IBM	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [223] OUTPUT>IBM Content Collector (program number 5724-V57)	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [224] OUTPUT>(c ) Copyright IBM Corp. 2012.  All Rights Reserved.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [225] OUTPUT>US Government Users Restricted Rights -	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [226] OUTPUT>Use, duplication or disclosure restricted by GSA ADP Schedule	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [227] OUTPUT>Contract with IBM Corporation	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.349Z INFO	 [228] OUTPUT>Validating P8 connection with uri <http://192.168.1.60:9081/wsi/FNCEWS40MTOM/>, user: <p8admin>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.740Z INFO	 [229] OUTPUT>[Perf Log] perflog.dir=null not found, auditor disabled 	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:27.740Z INFO	 [230] OUTPUT>[Perf Log] No interval found. Auditor disabled.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:29.256Z INFO	 [231] OUTPUT>Domain name: p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:29.256Z INFO	 [232] OUTPUT>Connection successful! Domain=<p8domain>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:29.256Z INFO	 [233] OUTPUT>Execution time: 1907	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:29.256Z INFO	 [234] OUTPUT>Ending java application!!!	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-11 2]
+2016-05-19T07:33:29.272Z INFO	 [235] Command return code: 0	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:33:29.272Z FINE	 [236] P8 user validation job ended	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:38.964Z INFO	 [237] Is mail system selected: true	 [com.ibm.afu.initialconfig.InitialConfigWizard isMailSystemSelected] [main 0]
+2016-05-19T07:33:38.980Z FINE	 [238] Current page: com.ibm.afu.initialconfig.pages.P8TaskPage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:33:46.374Z FINE	 [239] P8 user validation job started	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:46.374Z FINE	 [240] P8 user validation for user: <p8admin>	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:33:46.374Z INFO	 [241] Executing command <"C:\Program Files (x86)\IBM\ContentCollector\java\jre\bin\java.exe" -cp "C:\Program Files (x86)\IBM\FileNet\CEClient\lib\*;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8.jar;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8search.jar;" com.ibm.afu.initialconfig.p8.P8Validation -validate http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ p8admin ********> in directory <C:\Program Files (x86)\IBM\ContentCollector>	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:33:47.125Z INFO	 [242] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [243] OUTPUT>P8Validation: Validation of P8 credentials	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [244] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [245] OUTPUT>Licensed Materials - Property of IBM	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [246] OUTPUT>IBM Content Collector (program number 5724-V57)	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [247] OUTPUT>(c ) Copyright IBM Corp. 2012.  All Rights Reserved.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [248] OUTPUT>US Government Users Restricted Rights -	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [249] OUTPUT>Use, duplication or disclosure restricted by GSA ADP Schedule	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [250] OUTPUT>Contract with IBM Corporation	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.125Z INFO	 [251] OUTPUT>Validating P8 connection with uri <http://192.168.1.60:9081/wsi/FNCEWS40MTOM/>, user: <p8admin>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.453Z INFO	 [252] OUTPUT>[Perf Log] perflog.dir=null not found, auditor disabled 	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:47.453Z INFO	 [253] OUTPUT>[Perf Log] No interval found. Auditor disabled.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:48.907Z INFO	 [254] OUTPUT>Domain name: p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:48.907Z INFO	 [255] OUTPUT>Connection successful! Domain=<p8domain>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:48.907Z INFO	 [256] OUTPUT>Execution time: 1782	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:48.907Z INFO	 [257] OUTPUT>Ending java application!!!	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-13 3]
+2016-05-19T07:33:48.922Z INFO	 [258] Command return code: 0	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:33:48.922Z FINE	 [259] P8 user validation job ended	 [com.ibm.afu.initialconfig.jobs.P8UserValidationJob run] [Worker-0 1]
+2016-05-19T07:34:02.148Z FINE	 [260] P8 object store retrieval started	 [com.ibm.afu.initialconfig.jobs.P8ObjectStoreRetrievalJob run] [Worker-0 1]
+2016-05-19T07:34:02.148Z INFO	 [261] Executing command <"C:\Program Files (x86)\IBM\ContentCollector\java\jre\bin\java.exe" -cp "C:\Program Files (x86)\IBM\FileNet\CEClient\lib\*;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8.jar;C:\Program Files (x86)\IBM\ContentCollector\bin\afu-configp8search.jar;" com.ibm.afu.initialconfig.p8.P8Validation -objectStore http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ p8admin ******** p8admin ******** "C:\Program Files (x86)\IBM\ContentCollector\Configuration\initialConfig\data\AfuP8ObjectStore.txt"> in directory <C:\Program Files (x86)\IBM\ContentCollector>	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:34:02.898Z INFO	 [262] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [263] OUTPUT>P8Validation: Validation of P8 credentials	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [264] OUTPUT>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [265] OUTPUT>Licensed Materials - Property of IBM	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [266] OUTPUT>IBM Content Collector (program number 5724-V57)	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [267] OUTPUT>(c ) Copyright IBM Corp. 2012.  All Rights Reserved.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [268] OUTPUT>US Government Users Restricted Rights -	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [269] OUTPUT>Use, duplication or disclosure restricted by GSA ADP Schedule	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [270] OUTPUT>Contract with IBM Corporation	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:02.898Z INFO	 [271] OUTPUT>Retrieving P8 object stores with extended information with uri <http://192.168.1.60:9081/wsi/FNCEWS40MTOM/>, user: <p8admin>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:03.211Z INFO	 [272] OUTPUT>[Perf Log] perflog.dir=null not found, auditor disabled 	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:03.211Z INFO	 [273] OUTPUT>[Perf Log] No interval found. Auditor disabled.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.681Z INFO	 [274] OUTPUT>Domain name: p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.681Z INFO	 [275] OUTPUT>Class: <com.filenet.api.admin.CmTextSearchPartitionDateProperty> found...	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.774Z INFO	 [276] OUTPUT>Grant allowed: true	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.774Z INFO	 [277] OUTPUT>User: <p8admin> have access to object store <FNOS>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.899Z INFO	 [278] OUTPUT>CBR Search Type: NONE	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.899Z INFO	 [279] OUTPUT>Document class information not retrieved.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.899Z INFO	 [280] OUTPUT>Grant allowed: true	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:04.899Z INFO	 [281] OUTPUT>User: <p8admin> have access to object store <FNOSICC>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.009Z INFO	 [282] OUTPUT>CBR Search Type: NONE	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.009Z INFO	 [283] OUTPUT>Document class information not retrieved.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.009Z INFO	 [284] OUTPUT>Connection successful! Domain=<p8domain>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.025Z INFO	 [285] OUTPUT>Retrieve P8 object store names with uri <http://192.168.1.60:9081/wsi/FNCEWS40MTOM/>, user: <p8admin>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.118Z INFO	 [286] OUTPUT>Domain name: p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [287] OUTPUT>Grant allowed: true	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [288] OUTPUT>User: <p8admin> have access to object store <FNOS>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [289] OUTPUT>Object store name: <FNOS>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [290] OUTPUT>Grant allowed: true	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [291] OUTPUT>User: <p8admin> have access to object store <FNOSICC>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [292] OUTPUT>Object store name: <FNOSICC>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [293] OUTPUT>Connection successful! Domain=<p8domain>	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [294] OUTPUT>ObjectStore:<FNOS>, domain: p8domain>, search: None,-1,false,true,false,false,-1,null,false,false	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [295] OUTPUT>ObjectStore:<FNOSICC>, domain: p8domain>, search: None,-1,false,true,false,false,-1,null,false,false	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [296] OUTPUT>Execution time: 2283	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [297] OUTPUT>Ending java application!!!	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-15 4]
+2016-05-19T07:34:05.181Z INFO	 [298] Command return code: 0	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:34:05.181Z FINE	 [299] First Execution time: 3033	 [com.ibm.afu.initialconfig.jobs.P8ObjectStoreRetrievalJob retrieveObjectStore] [Worker-0 1]
+2016-05-19T07:34:05.181Z FINE	 [300] Execution time: 3033	 [com.ibm.afu.initialconfig.jobs.P8ObjectStoreRetrievalJob run] [Worker-0 1]
+2016-05-19T07:34:07.416Z FINE	 [301] P8 user validation job ended	 [com.ibm.afu.initialconfig.jobs.P8ObjectStoreRetrievalJob run] [Worker-0 1]
+2016-05-19T07:35:01.249Z INFO	 [302] URL: bundleentry://11.fwk84149508/icons/6.gif	 [com.ibm.afu.initialconfig.Application createImageDescriptor] [main 0]
+2016-05-19T07:35:01.265Z FINE	 [303] Current page: com.ibm.afu.initialconfig.pages.ExecutionPage	 [com.ibm.afu.initialconfig.InitialConfigWizardDialog afterNextPressed] [main 0]
+2016-05-19T07:35:09.197Z INFO	 [304] P8 configuration job started	 [com.ibm.afu.initialconfig.jobs.CASP8CreationJob run] [Worker-0 1]
+2016-05-19T07:35:09.212Z INFO	 [305] Exchange job started	 [com.ibm.afu.initialconfig.jobs.CASExchangeJob run] [Worker-1 5]
+2016-05-19T07:35:09.243Z INFO	 [306] Executing command <"C:\Program Files (x86)\IBM\ContentCollector\ctms\ICCComplianceInstaller" -username p8admin -password ******** -connection http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ -domain p8domain -objectstore FNOSICC -datamodel em -version 2.0 -cbr -classpath "C:\Program Files (x86)\IBM\ContentCollector\ctms"> in directory <C:\Program Files (x86)\IBM\ContentCollector\ctms>	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:35:09.259Z FINE	 [307] Set job finished: Exchange 配置 - finished jobs: 1 - success jobs: 1	 [com.ibm.afu.initialconfig.pages.ExecutionPage setJobFinished] [main 0]
+2016-05-19T07:35:09.259Z INFO	 [308] Exchange job ended	 [com.ibm.afu.initialconfig.jobs.CASExchangeJob run] [Worker-1 5]
+2016-05-19T07:35:09.649Z INFO	 [309] OUTPUT>Username = p8admin	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [310] OUTPUT>Password is defined, but it's a secret	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [311] OUTPUT>Connection = http://192.168.1.60:9081/wsi/FNCEWS40MTOM/	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [312] OUTPUT>Domain = p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [313] OUTPUT>Object store = FNOSICC	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [314] OUTPUT>Data model type = em	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [315] OUTPUT>Data model version = 2.0	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [316] OUTPUT>Manifest path = 	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [317] OUTPUT>CBR enabled = True	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [318] OUTPUT>Class path = C:\Program Files (x86)\IBM\ContentCollector\ctms	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [319] OUTPUT>GPRMS enabled = False	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [320] OUTPUT>Custodian enabled = False	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.649Z INFO	 [321] OUTPUT>Installing the email data model version 2.0.	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.884Z INFO	 [322] OUTPUT>Creating P8 connection	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:09.915Z INFO	 [323] OUTPUT>Fetching the P8 domain, p8domain	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:10.149Z INFO	 [324] OUTPUT>Fetching the P8 object store, FNOSICC	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:15.052Z INFO	 [325] OUTPUT>Setting the ObjectStore property 'IndexingFailureRecordingLevel' to 'PROPAGATE_TO_SOURCE(1)'	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:15.286Z INFO	 [326] OUTPUT>Found ICCVaryingFields property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:15.286Z INFO	 [327] OUTPUT>Updating property template ICCVaryingFields	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:16.238Z INFO	 [328] OUTPUT>Found ICCMailDate property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:16.238Z INFO	 [329] OUTPUT>Updating property template ICCMailDate	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:16.925Z INFO	 [330] OUTPUT>Found ICCExpirationDate property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:16.925Z INFO	 [331] OUTPUT>Updating property template ICCExpirationDate	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:17.597Z INFO	 [332] OUTPUT>Found ICCMailFlags property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:17.597Z INFO	 [333] OUTPUT>Updating property template ICCMailFlags	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:18.268Z INFO	 [334] OUTPUT>Found ICCMailboxID property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:18.268Z INFO	 [335] OUTPUT>Updating property template ICCMailboxID	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:18.877Z INFO	 [336] OUTPUT>Found ICCMailUID property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:18.877Z INFO	 [337] OUTPUT>Updating property template ICCMailUID	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:19.502Z INFO	 [338] OUTPUT>Found ICCTitle property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:19.502Z INFO	 [339] OUTPUT>Updating property template ICCTitle	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:20.204Z INFO	 [340] OUTPUT>Found ICCMailReference property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:20.204Z INFO	 [341] OUTPUT>Updating property template ICCMailReference	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:20.891Z INFO	 [342] OUTPUT>Found ICCMailInstanceReference property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:20.891Z INFO	 [343] OUTPUT>Updating property template ICCMailInstanceReference	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:21.547Z INFO	 [344] OUTPUT>Found ICCMailSearchReference property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:21.547Z INFO	 [345] OUTPUT>Updating property template ICCMailSearchReference	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:22.203Z INFO	 [346] OUTPUT>Found ICCSubject property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:22.203Z INFO	 [347] OUTPUT>Updating property template ICCSubject	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:22.843Z INFO	 [348] OUTPUT>Found ICCFrom property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:22.843Z INFO	 [349] OUTPUT>Updating property template ICCFrom	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:23.499Z INFO	 [350] OUTPUT>Found ICCTo property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:23.499Z INFO	 [351] OUTPUT>Updating property template ICCTo	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:24.155Z INFO	 [352] OUTPUT>Found ICCAttachmentCorrelationKeys property template	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:24.155Z INFO	 [353] OUTPUT>Updating property template ICCAttachmentCorrelationKeys	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:24.857Z INFO	 [354] OUTPUT>Document subclass ICCDocument already exists	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:25.919Z INFO	 [355] OUTPUT>Custom object subclass ICCCustomObject already exists	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.075Z INFO	 [356] OUTPUT>Found ICCTitle property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.075Z INFO	 [357] OUTPUT>Property [ICCTitle, False] already exists on ICCCustomObject	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.778Z INFO	 [358] OUTPUT>Document subclass ICCMail2 already exists	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.996Z INFO	 [359] OUTPUT>Found ICCAttachmentCorrelationKeys property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.996Z INFO	 [360] OUTPUT>Property [ICCAttachmentCorrelationKeys, False] already exists on ICCMail2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.996Z INFO	 [361] OUTPUT>Found ICCExpirationDate property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:26.996Z INFO	 [362] OUTPUT>Property [ICCExpirationDate, False] already exists on ICCMail2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.793Z INFO	 [363] OUTPUT>Custom object subclass ICCMailInstance2 already exists	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [364] OUTPUT>Found ICCMailboxID property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [365] OUTPUT>Property [ICCMailboxID, False] already exists on ICCMailInstance2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [366] OUTPUT>Found ICCMailUID property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [367] OUTPUT>Property [ICCMailUID, False] already exists on ICCMailInstance2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [368] OUTPUT>Found ICCVaryingFields property definition	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:27.918Z INFO	 [369] OUTPUT>Property [ICCVaryingFields, False] already exists on ICCMailInstance2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:28.573Z INFO	 [370] OUTPUT>Creating document subclass ICCMailSearch2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:28.589Z INFO	 [371] OUTPUT>Creating subclass ICCMailSearch2	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:29.042Z INFO	 [372] OUTPUT>ERROR : An index area is not configured in P8CE for use with the '-cbr' option. P8CE configuration is not complete. -> PERSIST_CANT_CBR_ENABLE : 直到已针对 CBR 启用对象存储库之后，才能将 CBREnabled 设置为等于 true。	 [com.ibm.afu.initialconfig.helper.ExecuteOutputReader run] [Thread-17 6]
+2016-05-19T07:35:29.042Z INFO	 [373] Command return code: 3	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommand] [Worker-0 1]
+2016-05-19T07:35:29.042Z SEVERE	 [374] P8 setup with error: Error on command <"C:\Program Files (x86)\IBM\ContentCollector\ctms\ICCComplianceInstaller" -username p8admin -password ******** -connection http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ -domain p8domain -objectstore FNOSICC -datamodel em -version 2.0 -cbr -classpath "C:\Program Files (x86)\IBM\ContentCollector\ctms"> with RC: 3	 [com.ibm.afu.initialconfig.jobs.CASP8CreationJob createP8DocumentClasses] [Worker-0 1]Exception [com.ibm.afu.initialconfig.exception.ExecuteException]: Error on command <"C:\Program Files (x86)\IBM\ContentCollector\ctms\ICCComplianceInstaller" -username p8admin -password ******** -connection http://192.168.1.60:9081/wsi/FNCEWS40MTOM/ -domain p8domain -objectstore FNOSICC -datamodel em -version 2.0 -cbr -classpath "C:\Program Files (x86)\IBM\ContentCollector\ctms"> with RC: 3
+	com.ibm.afu.initialconfig.helper.CASExecuteHelper.executeCommand(CASExecuteHelper.java:75)
+	com.ibm.afu.initialconfig.jobs.CASP8CreationJob.executeP8DocumentClasses(CASP8CreationJob.java:314)
+	com.ibm.afu.initialconfig.jobs.CASP8CreationJob.createP8DocumentClasses(CASP8CreationJob.java:129)
+	com.ibm.afu.initialconfig.jobs.CASP8CreationJob.run(CASP8CreationJob.java:84)
+	org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+2016-05-19T07:35:29.073Z FINE	 [375] Set job finished: 创建 FileNet P8 文档类 - finished jobs: 2 - success jobs: 1	 [com.ibm.afu.initialconfig.pages.ExecutionPage setJobFinished] [main 0]
+2016-05-19T07:35:29.089Z INFO	 [376] P8 configuration job ended	 [com.ibm.afu.initialconfig.jobs.CASP8CreationJob run] [Worker-0 1]
+2016-05-19T07:35:37.333Z INFO	 [377] Executing command <[Ljava.lang.String;@357e357e> in directory <C:\Program Files (x86)\IBM\ContentCollector\ctms>	 [com.ibm.afu.initialconfig.helper.CASExecuteHelper executeCommandNotWait] [main 0]
