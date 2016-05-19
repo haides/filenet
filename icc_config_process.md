@@ -119,18 +119,19 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     需要修改注册表  查看陈工说的注册表  01.png,
     陈工说不行，原来outlook2013需要用32位的客户端
     安装了32位客户端以后，还是不行  02.png  日志文件 office2013_32位的日志.zip
-# 重新按照IBM人员的要求重新配置Outlook    [安装记录](./20160408重新配置outlook)
-    使用和outlook同样的账户登陆 ICC server  filnet登陆icc server ./01.png
-    删除原来创建的outlook账户   02.png
-    创建新的outlook账户     03.png, 04.png
-    禁用Exchange cached mode.   05.png, 06.png
-    检查Outlook 是否能链接上去,可以的  07.png
-    重启服务,清空日志 IBM Content Collector web application 和 task routing engine
-    结果:
-        windows事件记录还是没有 08.png
-        系统仪表板 已访问的文档数还是 '~' 09.png
-        日志:   20160408_no_cached_log.zip
-    把filenet用户加入组 Organization Management后重启
+<p id="20160408"></p>
+# 重新按照IBM人员的要求重新配置Outlook [安装记录](./20160408重新配置outlook)
+1. 使用和outlook同样的账户登陆 ICC server  filnet登陆icc server ./01.png
+2. 删除原来创建的outlook账户   02.png
+3. 创建新的outlook账户     03.png, 04.png
+4. 禁用Exchange cached mode.   05.png, 06.png
+5. 检查Outlook 是否能链接上去,可以的  07.png
+6. 重启服务,清空日志 IBM Content Collector web application 和 task routing engine
+7. 结果:
+    * windows事件记录还是没有 08.png
+    * 系统仪表板 已访问的文档数还是 '~' 09.png
+    * 日志:   20160408_no_cached_log.zip
+8. 把filenet用户加入组 Organization Management后重启
 # 增加了filenet的权限以后重启ICC  [安装记录](./20160408增加filenet权限)
 1. 增加了filenet用户的权限 01.png
 2. 仍然没有事件记录， 系统仪表板还是 ~ 02.png
@@ -282,3 +283,11 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
 5. 时间表改成`始终`   29.png
 6. 日志级别改成`跟踪` 30.png
 7. 启动服务失败 31.png  修改用户后启动成功  32.png
+8. 系统仪表板仍然有错误 33.png 
+    * 日志  管理员用户启动简单的任务的日志.zip
+# 使用域用户去启动所有服务 [安装记录](./20160519重新设置ICC)
+## 配置Outlook [参考](#20160408)
+1. 新建配置 AFU_M.LANDSEA.CN 34.png
+2. 关闭缓存 Exchange 模式   35.png
+3. 重启服务 Web Application 和 Task Routing Engine
+4. 启动后的日志 ./用域用户登录并且修改了outlook后的日志.zip
