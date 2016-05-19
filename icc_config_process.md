@@ -243,3 +243,6 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
 1. 启动失败, ctms 的 audit 文件夹里面没有文件, windows没有产生事件
     * 截屏 01任务(上).png 02任务(下).png 03系统仪表板有错误.png 04电子邮件连接成功.png 05仅仅收集电子邮件的任务.png
     * 日志: log.zip
+    * 查看日志是乱码    06ICC日志仍然是乱码.png
+    * 日志数量就是这么多    07日志数量.png 2016-05-19 11:48打包的日志.zip
+    * 检查FileNet的连接     09Filenet能够连接并检测到对象库.png

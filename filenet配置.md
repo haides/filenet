@@ -2,6 +2,8 @@ filenet服务器   192.168.1.60    root    password
 
 was服务器   wasadmin    password    暂时没有打补丁(记得先停机)
 
+navigator   192.168.1.212   root    redhat
+
 filenet账号密码 p8admin password
 
     域: p8domain
