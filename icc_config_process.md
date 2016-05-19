@@ -289,5 +289,8 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
 ## 配置Outlook [参考](#20160408)
 1. 新建配置 AFU_M.LANDSEA.CN 34.png
 2. 关闭缓存 Exchange 模式   35.png
-3. 重启服务 Web Application 和 Task Routing Engine
-4. 启动后的日志 ./用域用户登录并且修改了outlook后的日志.zip
+3. 重启计算机
+4. 重启服务 Web Application 和 Task Routing Engine
+    * Email Collector 服务自动跟随 Task Routing Engine 启动 36.png
+    * 系统仪表板仍然有错误，访问文档数为 `~`    37.png
+5. 启动后的日志 ./用域用户登录并且修改了outlook后的日志.zip
