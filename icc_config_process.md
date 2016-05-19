@@ -246,3 +246,17 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     * 查看日志是乱码    06ICC日志仍然是乱码.png
     * 日志数量就是这么多    07日志数量.png 2016-05-19 11:48打包的日志.zip
     * 检查FileNet的连接     09Filenet能够连接并检测到对象库.png
+
+# 重新安装ICC [安装记录](./20160519重新设置ICC)
+1. 卸载ICC 01卸载了ICC.png
+2. 重启电脑
+3. 安装ICC 
+    * 集群名称 cluster519   04.png
+    * 目标目录 C:\Program Files (x86)\IBM\ContentCollector 05.png
+    * 选择源: `Microsoft Exchange` 存储库: `IBM FileNet P8` 06.png
+    * 选择如何部署: 07.png
+        * 将应用程序自动部署到嵌入式 Web 应用程序服务器
+        * 不勾选 `仅部署归档功能所需的应用程序`
+    * 主机名: WIN-47E9N1KOE9M.m.landsea.cn 端口: 11443  08.png
+        * 之前安装的时候因为计算机还没有加入域，所以这个设置有点不同
+    * 最后检查  09.png 10.png
