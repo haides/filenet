@@ -1,1 +1,0 @@
-所有的安装过程都记录在 icc_config_process.txt
