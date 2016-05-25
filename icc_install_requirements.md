@@ -3,7 +3,7 @@
 ## Hardware requirements
 * CPU要求: 2 核 2.5 GHz; 实际: 8CPU 2.2 GHz **不满足**
 * 内存要求: 4 GB; 实际: 8 GB **满足**
-* 硬盘要求: 150GB; 实际: 100GB **不满足**
+* 硬盘要求: 150GB; 实际: 100GB **不满足,但是有30G的空余硬盘空间**
 * 系统要求: Microsoft 2008 R2; **满足**
 
 ![系统需求](./requirements/01系统信息.png)
