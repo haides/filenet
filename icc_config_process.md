@@ -5,7 +5,7 @@
 * wifi818 密码: 1234567890
 * Landsea4L   密码: asd456789
 * 内网    192.168.103.119,    192.168.103.254  DNS 218.2.135.1
-* 安装电脑    192.168.1.188   Administrator   landsea
+* 安装电脑    192.168.1.188   帐号: Administrator   密码: ******
 # 基础安装
 1. 安装 .net Framkework 4 (done)
 2. 安装 .net API   (网址都是 http://192.168.1.60:9081) (done)
@@ -17,16 +17,16 @@
 5. 安装 filenet client (done)  
 6. 安装 CC_SVR (done)
     资源值单元  RVU
-    CN=filenet,CN=Users,DC=m,DC=landsea,DC=cn 密码: filenet123 (验证失败)
-    filenet@m.landsea.cn 密码: filenet123
-    CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn 密码: filenet123 (验证成功)
+    CN=filenet,CN=Users,DC=m,DC=landsea,DC=cn 密码: ****** (验证失败)
+    filenet@m.landsea.cn 密码: ******
+    CN=filenet,OU=landsea,DC=m,DC=landsea,DC=cn 密码: ****** (验证成功)
     FileNet P8 服务器配置
         http://192.168.1.60:9081/wsi/FNCEWS40MTOM
         p8admin
-        password
+        密码: ****** 
     FileNet P8 任务用户
         p8admin
-        password
+        ******
     FileNet P8 域和对象库
         FNOS
         p8domain
@@ -93,10 +93,10 @@
     * 仍然不行。用ad域打开outlook打不开，如果是
 11. 重新安装 outlook    ./20160330重新设置ad邮箱
     * 但是用flenet登陆域以后无法登陆exchange服务器    失败    01.png
-        * filenet@m.landsea.cn    filenet123
+        * filenet@m.landsea.cn    密码: ******
     * 使用管理员登陆以后  也不行  失败    02.png
-    * 域登陆  filenet@landsea.cn  filenet123  失败    03.png  04.png
-    * 管理元登陆  filenet@landsea.cn  filenet123  成功    05.png
+    * 域登陆  filenet@landsea.cn  密码: ******  失败    03.png  04.png
+    * 管理员登陆  filenet@landsea.cn  密码: ******  成功    05.png
         * 但是需要修改账户设置,无法发送邮件   06.png
 尝试域内链接 exchange 服务  ./20160331域内链接exchange
     怀疑是否需要POP 和 IMAP SMTP服务
@@ -205,7 +205,7 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     * 测试gcd账号和fnos账号都无法链接   09 - 11.png
     * 但是任务还是可以运行的。并且
 4. 运行任务 13.png
-    * 提示输出was的账号密码 输入 p8admin, password  14.png
+    * 提示输出was的账号密码 输入 p8admin, ******  14.png
     * 任务完成  15.png, 16.png
 5. 完成数据源的创建, was的页面上出现了数据源 FNOSICC 和 FNOSICCXA 17.png
 ## 利用已经创建好的数据源创建对象存储库
