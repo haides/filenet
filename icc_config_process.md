@@ -294,3 +294,7 @@ IBM人说outlook需要安装server pack补丁包,安装补丁包  ./0406升级ou
     * Email Collector 服务自动跟随 Task Routing Engine 启动 36.png
     * 系统仪表板仍然有错误，访问文档数为 `~`    37.png
 5. 启动后的日志 ./用域用户登录并且修改了outlook后的日志.zip
+
+# 根据IBM人员要求去检查 ICC 安装的需求是否满足
+* [安装需求检查](./icc_install_requirements.md)
+* IBM工程师认为这个需要开了新的PMR: 15693999672, 请IBM的工程师检查
