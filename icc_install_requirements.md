@@ -25,3 +25,4 @@
 
 ## Filenet
 * 需要 5.2.1 实际: 5.2.1 **满足**
+![FileNet版本](./requirements/filenet版本.png)
