@@ -14,7 +14,7 @@
     * 集群名称    icc_cluster  
     * 默认    端口11443  
     * 需要 filenet client  
-5. 安装 filenet client (done)  
+5. 安装 filenet client (done) [安装记录](./20160328重新安装Client/README.md)
 6. 安装 CC_SVR (done)
     资源值单元  RVU
     CN=filenet,CN=Users,DC=m,DC=landsea,DC=cn 密码: ****** (验证失败)
